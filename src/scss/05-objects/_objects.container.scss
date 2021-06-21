@@ -2,11 +2,8 @@
    #CONTAINER-OBJECT
    ========================================================================== */
 
-.o-container {
-  @include spacing-sides;
-
+.container {
   width: 100%;
   max-width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: auto;
 }
